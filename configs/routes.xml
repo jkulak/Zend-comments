@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+  <production>
+    <routes>
+      
+        <!-- Comments -->
+        <comment>
+          <route>comments</route>
+          <defaults>
+            <controller>comment</controller>
+            <action>index</action>
+          </defaults>
+        </comment>
+        
+    </routes>
+  </production>
+  <development extends="production">
+    
+  </development>
+</configdata>
